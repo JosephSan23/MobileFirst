@@ -1,0 +1,24 @@
+/* Esta pseudo-clase funciona para crear variables en nuestro proyecto y asi reutilizarlas */
+:root {
+    --bitcoin-orange: #f7931A;
+    --soft-orange: #FFE9D5;
+    --secundary-blue: #1a9af7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #FAF8F7;
+    --just-white: #fff;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}

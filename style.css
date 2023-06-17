@@ -640,14 +640,14 @@ main {
     width: 150px;
     height: 48px;
     margin-top: 20px;
-    background-color: rgb(91, 187, 235);
+    background-color: rgb(209, 234, 247);
     border: 2px solid var(--secundary-blue);
     border-radius: 4px;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.8rem;
-    color: var(--just-white);
+    color: var(--black);
 }
 
 .plan-card--ca3 {
@@ -655,7 +655,7 @@ main {
     height: 48px;
     margin-top: 20px;
     background-color: var(--black);
-    border: 2px solid var(--bitcoin-orange);
+    border: 2px solid var(--just-white);
     border-radius: 4px;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem;
@@ -676,7 +676,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('./assets/icons/orange-right-arrow.svg');
+    background-image: url('./assets/icons/blue-right-arrow.svg');
     vertical-align: text-bottom;
 }
 
@@ -684,7 +684,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('./assets/icons/orange-right-arrow.svg');
+    background-image: url('./assets/icons/white-right-arrow.svg');
     vertical-align: text-bottom;
 }
 

@@ -521,7 +521,7 @@ main {
     height: 250px;
     margin: 50px auto 0;
     padding: 0 15px;
-    background-color: var(--just-white);
+    background-color: var(--warm-black);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
@@ -573,6 +573,14 @@ main {
     color: black;
 }
 
+.plan-card--title3 {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
 .plan-card--price {
     padding: 5px 0;
     font-size: 5.2rem;
@@ -587,6 +595,26 @@ main {
     position: relative;
     top: -30px;
     left: 8px;
+}
+
+.plan-card--price3 {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: var(--just-white);
+}
+
+.plan-card--price3 span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: relative;
+    top: -30px;
+    left: 8px;
+}
+
+.pes-sign {
+    color: var(--just-white);
 }
 
 .plan-card--saving {
@@ -608,6 +636,34 @@ main {
     color: var(--black);
 }
 
+.plan-card--ca2 {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: rgb(91, 187, 235);
+    border: 2px solid var(--secundary-blue);
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.plan-card--ca3 {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: var(--black);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
 .plan-card--ca span {
     display: inline-block;
     width: 20px;
@@ -615,3 +671,21 @@ main {
     background-image: url('./assets/icons/orange-right-arrow.svg');
     vertical-align: text-bottom;
 }
+
+.plan-card--ca2 span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
+}
+
+.plan-card--ca3 span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
+}
+
+/* Footer */

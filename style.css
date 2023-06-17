@@ -113,7 +113,7 @@ main {
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
-    
+
 }
 
 .main-exchange-container .background-img {
@@ -181,7 +181,7 @@ main {
     font-weight: 500;
     line-height: 1.9rem;
     color: var(--grey);
-    background-color:  var(--just-white);
+    background-color: var(--just-white);
 }
 
 .currency-table-container .table__top-left {
@@ -209,7 +209,7 @@ main {
 
 /* Iconos de la subida o bajada de las monedas */
 /*Down*/
-.currency-table-container .down{
+.currency-table-container .down {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -221,7 +221,7 @@ main {
 }
 
 /*Up*/
-.currency-table-container .up{
+.currency-table-container .up {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -287,7 +287,7 @@ main {
     font-weight: 500;
     line-height: 1.9rem;
     color: var(--grey);
-    background-color:  var(--just-white);
+    background-color: var(--just-white);
 }
 
 .currency-table-container-2 .table__top-left {
@@ -467,4 +467,35 @@ main {
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
+}
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-size: 500;
+    line-height: 1.8rem;
+    color: #757575;
 }

@@ -1,2 +1,2 @@
 # MobileFirst
-Un proyecto hecho con mucho amor
+Bienvenido a este proyecto hecho solamente con Html5 y Css3 completamente estatico.
